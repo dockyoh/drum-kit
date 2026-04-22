@@ -54,6 +54,11 @@ body::before {
   scale: 1.1;
 }
 
+.playing {
+  box-shadow: 0px 0px 5px 5px yellow;
+  scale: 1.1;
+}
+
 .key-letter {
   font-size: 3rem;
 }
