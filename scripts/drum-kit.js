@@ -5,7 +5,7 @@ export function playAudio(audioElement) {
 
 export function renderStyle(keyElement) {
   keyElement.classList.add("playing");
-  setTimeout(() => {
+  keyElement.addEventListener("transitionend", (event) => {
     keyElement.classList.remove("playing");
-  }, 75);
+  });
 }
